@@ -60,12 +60,7 @@ When the user clicks on the "stars" representing different components of the hel
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Future Improvements
-
-- **Enhanced Impact Detection**: Integrating real-time data from actual sensors for more accurate impact simulations.
-- **Mobile Compatibility**: Making the 3D scene more responsive for mobile devices.
-- **Real-world Simulation**: Simulating the interaction of the helmet with real-world physics for more dynamic feedback.
 
 ---
 
-For more information, please visit [the official PopShock project page](https://github.com/yourusername/popshock).
+For more information, please visit [the official PopShock project page](https://ift.devinci.fr/).
