@@ -119,7 +119,7 @@ fontLoader.load('https://threejs.org/examples/fonts/droid/droid_sans_regular.typ
     const textGeometry3 = new TextGeometry('Appuyez sur espace pour faire tourner le casque', {
         font: font,size: 0.1,height: 0.02,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.01,bevelSize: 0.005,bevelSegments: 5
     });
-    const textMaterial3 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
+    const textMaterial3 = new THREE.MeshStandardMaterial({ color: 0x000000 }); 
     const textMesh3 = new THREE.Mesh(textGeometry3, textMaterial3);
     textMesh3.position.set(-1.5, -2, 0); 
     textMesh3.rotation.x = -Math.PI / 4; 
