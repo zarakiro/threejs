@@ -46,7 +46,7 @@ fontLoader.load('https://threejs.org/examples/fonts/gentilis_bold.typeface.json'
     textMesh.rotation.x = Math.PI / 10; 
     scene.add(textMesh); 
 
-    const textGeometry2 = new TextGeometry('Lancer une boule', {
+    const textGeometry2 = new TextGeometry('Launch a Ball', {
         font: font,size: 0.2,height: 0.05,curveSegments: 12, bevelEnabled: true,bevelThickness: 0.01,bevelSize: 0.005,bevelSegments: 5
     });
     const textMaterial2 = new THREE.MeshStandardMaterial({ color: 0x000000 }); 
@@ -55,7 +55,7 @@ fontLoader.load('https://threejs.org/examples/fonts/gentilis_bold.typeface.json'
     launchTextMesh.rotation.x = -Math.PI / 5; 
     scene.add(launchTextMesh); 
 
-    const statusTextGeometry = new TextGeometry('Aucun choc détecté', {
+    const statusTextGeometry = new TextGeometry('No Shock Detected', {
         font:font, size: 0.15, height: 0.05
     });
     statusTextMesh = new THREE.Mesh(statusTextGeometry, new THREE.MeshStandardMaterial({ color: 0x00ff00 }));
@@ -100,7 +100,7 @@ function launchBall() {
 function updateStatusMessage(isSevere) {
     scene.remove(statusTextMesh); // Supprimez l'ancien texte
     // Créez une nouvelle géométrie pour le texte
-    const newText = isSevere ? 'Choc violent détecté !' : 'Aucun choc détecté';
+    const newText = isSevere ? 'Severe Shock Detected !' : 'No Shock Detected';
     const textMaterial = new THREE.MeshStandardMaterial({ color: isSevere ? 0xff0000 : 0x00ff00 });
     fontLoader.load('https://threejs.org/examples/fonts/gentilis_bold.typeface.json', (font) => {
         const textGeometry = new TextGeometry(newText, {
@@ -116,16 +116,16 @@ function updateStatusMessage(isSevere) {
     });
 }
 fontLoader.load('https://threejs.org/examples/fonts/droid/droid_sans_regular.typeface.json', (font) => {
-    const textGeometry3 = new TextGeometry('Appuyez sur espace pour faire tourner le casque', {
+    const textGeometry3 = new TextGeometry('Press Space to rotate the helmet', {
         font: font,size: 0.1,height: 0.02,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.01,bevelSize: 0.005,bevelSegments: 5
     });
-    const textMaterial3 = new THREE.MeshStandardMaterial({ color: 0x000000 }); 
+    const textMaterial3 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
     const textMesh3 = new THREE.Mesh(textGeometry3, textMaterial3);
     textMesh3.position.set(-1.5, -2, 0); 
     textMesh3.rotation.x = -Math.PI / 4; 
     scene.add(textMesh3); 
 
-    const textGeometry4 = new TextGeometry('Cliquez sur les spheres pour en apprendre plus', {
+    const textGeometry4 = new TextGeometry('Click on the yellow spheres to learn more', {
         font: font,size: 0.1,height: 0.02,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.01,bevelSize: 0.005,bevelSegments: 5
     });
     const textMaterial4 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
