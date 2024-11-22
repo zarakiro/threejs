@@ -124,6 +124,15 @@ fontLoader.load('https://threejs.org/examples/fonts/droid/droid_sans_regular.typ
     textMesh3.position.set(-1.5, -2, 0); 
     textMesh3.rotation.x = -Math.PI / 4; 
     scene.add(textMesh3); 
+
+    const textGeometry4 = new TextGeometry('Cliquez sur les spheres pour en apprendre plus', {
+        font: font,size: 0.1,height: 0.02,curveSegments: 12,bevelEnabled: true,bevelThickness: 0.01,bevelSize: 0.005,bevelSegments: 5
+    });
+    const textMaterial4 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
+    const textMesh4 = new THREE.Mesh(textGeometry4, textMaterial4);
+    textMesh4.position.set(-1.5, -2.5, 0); 
+    textMesh4.rotation.x = -Math.PI / 4; 
+    scene.add(textMesh4); 
 });
 
 const tooltip = document.getElementById("tooltip");
