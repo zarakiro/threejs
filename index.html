@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ThreeJs Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.169.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.169.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="content">
+        <div id="canvas-container">
+            <canvas id="Mycanvas"></canvas>
+        </div>  
+    </div>
+    <div id="tooltip" style="display: none;">
+        <h3 id="tooltip-title"></h3>
+        <p id="tooltip-description"></p>
+        <img id="tooltip-image" src="" style="text-align: center;">
+    </div>
+
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

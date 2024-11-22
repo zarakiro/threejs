@@ -1,0 +1,77 @@
+/* Styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    overflow: hidden; /* Empêche le scrolling vertical */
+    background-color: #a8dadc;
+}
+#content {
+    display: flex;
+    flex: 1; /* Prend tout l'espace disponible après le header */
+    overflow: hidden; 
+}
+#canvas-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 10;
+    display: flex;
+    flex-direction: column; /* Aligne les enfants verticalement */
+    align-items: center;    /* Centre les enfants horizontalement */
+    text-align: center;
+    max-width: 400px;
+}
+#tooltip-title {
+    font-size: 30px;
+    margin-bottom: 10px; /* Espacement entre le titre et l'image */
+    text-align: center;
+}
+#tooltip img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Espacement entre l'image et la description */
+}
+#tooltip-description {
+    font-size: 16px;
+    text-align: center; /* Centrer le texte */
+}
+
+.label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    max-width: 25%;  /* Limiter la largeur */
+    word-wrap: break-word; /* Permet de couper les mots trop longs */
+    white-space: normal; /* Permet au texte de s'afficher sur plusieurs lignes */
+}
+.label p {
+    margin-bottom: 10px;  /* Espacement entre les paragraphes */
+    line-height: 1.5;  /* Espacement entre les lignes */
+}
+
