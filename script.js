@@ -51,7 +51,7 @@ fontLoader.load('https://threejs.org/examples/fonts/gentilis_bold.typeface.json'
     });
     const textMaterial2 = new THREE.MeshStandardMaterial({ color: 0x000000 }); 
     launchTextMesh = new THREE.Mesh(textGeometry2, textMaterial2);
-    launchTextMesh.position.set(-1, -1.5, 0); 
+    launchTextMesh.position.set(-0.8, -1.5, 0); 
     launchTextMesh.rotation.x = -Math.PI / 5; 
     scene.add(launchTextMesh); 
 
@@ -121,7 +121,7 @@ fontLoader.load('https://threejs.org/examples/fonts/droid/droid_sans_regular.typ
     });
     const textMaterial3 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
     const textMesh3 = new THREE.Mesh(textGeometry3, textMaterial3);
-    textMesh3.position.set(-1.5, -2, 0); 
+    textMesh3.position.set(-1, -2, 0); 
     textMesh3.rotation.x = -Math.PI / 4; 
     scene.add(textMesh3); 
 
@@ -130,7 +130,7 @@ fontLoader.load('https://threejs.org/examples/fonts/droid/droid_sans_regular.typ
     });
     const textMaterial4 = new THREE.MeshStandardMaterial({ color: 0xffff00 }); 
     const textMesh4 = new THREE.Mesh(textGeometry4, textMaterial4);
-    textMesh4.position.set(-1.5, -2.5, 0); 
+    textMesh4.position.set(-1.2, -2.5, 0); 
     textMesh4.rotation.x = -Math.PI / 4; 
     scene.add(textMesh4); 
 });
