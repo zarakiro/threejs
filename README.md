@@ -1,4 +1,3 @@
-
 # PopShock - 3D Simulation of a Concussion-Detecting Rugby Helmet
 
 ## Overview
@@ -41,6 +40,9 @@ Clickable stars are placed on various parts of the helmet to describe its compon
 ### 5. Tooltip for Component Information
 When the user clicks on the "stars" representing different components of the helmet, a tooltip appears showing detailed information about that component.
 
+### 6. Helmet Description (Left Side)
+On the left side of the scene, a description of the PopShock helmet is displayed. It includes information about the helmet's design, its purpose in concussion prevention, and how the sensors and microcontroller work together to detect impacts and alert medical staff when necessary.
+
 ## How to Use
 
 1. **Explore the Helmet**: Rotate the helmet using the mouse or trackpad. Zoom in and out to get a closer look at the details.
@@ -60,7 +62,13 @@ When the user clicks on the "stars" representing different components of the hel
 
 This project is open source and available under the [MIT License](LICENSE).
 
+## Future Improvements
+
+- **Enhanced Impact Detection**: Integrating real-time data from actual sensors for more accurate impact simulations.
+- **Mobile Compatibility**: Making the 3D scene more responsive for mobile devices.
+- **Real-world Simulation**: Simulating the interaction of the helmet with real-world physics for more dynamic feedback.
 
 ---
 
 For more information, please visit [the official PopShock project page](https://ift.devinci.fr/).
+"""
