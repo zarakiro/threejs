@@ -174,22 +174,22 @@ gltfloader.load(
 const stars = [];
 const starDescriptions = {
     star1: {
-        titre:"Piezo",
+        titre:"Piezo Sensor",
         description:"This piezoelectric sensor is located on the forehead to detect frontal shocks during play.",
         image:"./images/piezo.jpeg"
     }, 
     star2:{
-        titre:"Piezo",
+        titre:"Piezo Sensor",
         description:"This piezoelectric sensor is located on the left side of the helmet to detect shocks during play.",
         image:"./images/piezo.jpeg"
     }, 
     star3:{
-        titre:"Piezo",
+        titre:"Piezo Sensor",
         description:"This piezoelectric sensor is located on the right side of the helmet to detect shocks during play.",
         image:"./images/piezo.jpeg"
     },
     star4:{
-        titre:"Piezo",
+        titre:"Piezo Sensor",
         description:"This piezoelectric sensor is located on the top of the helmet to detect shocks that may occur during play, particularly during scrums.",
         image:"./images/piezo.jpeg"
     }, 
@@ -199,12 +199,12 @@ const starDescriptions = {
         image:"./images/esp32.jpeg"
     }, 
     star6:{
-        titre:"Accelerometre MPU 6050",
+        titre:"MPU 6050 Accelerometer",
         description: "The MPU 6050 accelerometer measures head acceleration during impacts, enabling the detection of potentially dangerous impacts.",
         image:"./images/accelero.jpeg"
     }, 
     star7:{
-        titre:"Fils electroniques",
+        titre:"Electronic Wires",
         description:"These wires are located in the grooves of the helmet to connect the electronic components, in particular the sensors, to the microcontroller. They are painted black for aesthetic appeal.",
         image:"./images/wires.jpeg"
     }, 
