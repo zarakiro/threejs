@@ -175,37 +175,37 @@ const stars = [];
 const starDescriptions = {
     star1: {
         titre:"Piezo",
-        description:"Ce capteur piezoelectric est situé sur le front pour détecter les chocs frontaux lors du jeu",
+        description:"This piezoelectric sensor is located on the forehead to detect frontal shocks during play.",
         image:"./images/piezo.jpeg"
     }, 
     star2:{
         titre:"Piezo",
-        description:"Ce capteur piezoelectric est situé sur le côté gauche du casque pour détecter les chocs lors du jeu",
+        description:"This piezoelectric sensor is located on the left side of the helmet to detect shocks during play.",
         image:"./images/piezo.jpeg"
     }, 
     star3:{
         titre:"Piezo",
-        description:"Ce capteur piezoelectric est situé sur le côté droit du casque pour détecter les chocs lors du jeu",
+        description:"This piezoelectric sensor is located on the right side of the helmet to detect shocks during play.",
         image:"./images/piezo.jpeg"
     },
     star4:{
         titre:"Piezo",
-        description:"Ce capteur piezoelectric est situé sur le dessus du casque pour détecter les chocs pouvant survenir pendant le jeu notamment les mélées.",
+        description:"This piezoelectric sensor is located on the top of the helmet to detect shocks that may occur during play, particularly during scrums.",
         image:"./images/piezo.jpeg"
     }, 
     star5:{
         titre:"ESP32-C3 mini",
-        description: "L'ESP32-C3 Mini centralise les données de l'accéléromètre MPU 6050 et des capteurs piézoélectriques. Grâce à son module Bluetooth, il transmet ces informations au code Python principal, chargé de générer des alertes.",
+        description: "The ESP32-C3 Mini centralizes data from the MPU 6050 accelerometer and piezoelectric sensors. Thanks to its Bluetooth module, it transmits this information to the main Python code, responsible for generating alerts.",
         image:"./images/esp32.jpeg"
     }, 
     star6:{
         titre:"Accelerometre MPU 6050",
-        description: "L'accelerometre MPU 6050 mesure l'accélération de la tête lors des chocs, permettant de détecter des impacts potentiellement dangereux.",
+        description: "The MPU 6050 accelerometer measures head acceleration during impacts, enabling the detection of potentially dangerous impacts.",
         image:"./images/accelero.jpeg"
     }, 
     star7:{
         titre:"Fils electroniques",
-        description:"Ces fils sont présents dans les rainures du casque pour connecter les composants électroniques notamment les capteurs au microcontroleur. Ils sont peints en noir pour le côté esthetique.",
+        description:"These wires are located in the grooves of the helmet to connect the electronic components, in particular the sensors, to the microcontroller. They are painted black for aesthetic appeal.",
         image:"./images/wires.jpeg"
     }, 
 };
