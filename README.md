@@ -2,6 +2,9 @@
 
 ## Overview
 
+![image](https://github.com/user-attachments/assets/aef16975-4bc5-4d9d-8318-ea29b227773c)
+
+
 **PopShock** is a connected rugby helmet designed for the prevention and management of concussions in rugby. The helmet integrates advanced sensor technology to detect violent impacts, promoting player safety. The **PopShock project** is a Three.js-based 3D simulation of the helmet structure, allowing users to interact with the model, explore its components, and simulate collisions.
 
 ## Purpose
@@ -42,6 +45,10 @@ When the user clicks on the "stars" representing different components of the hel
 
 ### 6. Helmet Description (Left Side)
 On the left side of the scene, a description of the PopShock helmet is displayed. It includes information about the helmet's design, its purpose in concussion prevention, and how the sensors and microcontroller work together to detect impacts and alert medical staff when necessary.
+
+### 7. Image and Model Sources
+- The images of the helmet components used in this project were sourced from the internet.
+- The 3D model of the PopShock helmet was created using the Polycam application, which allowed for precise 3D scanning and modeling.
 
 ## How to Use
 
